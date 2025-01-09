@@ -3,7 +3,7 @@ import { useState } from "react";
 import {arrowRight} from "../assets/icons";
 import {shoes,statistics} from"../constants";
 import {bigShoe1} from"../assets/images";
-import ShoeCard from "../components/shoeCard";
+import ShoeCard from "../components/ShoeCard";
 
 const Hero = () => {
     const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
@@ -14,7 +14,6 @@ const Hero = () => {
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-x1 font-montserrat text-coral-red">
-          {" "}
           Our Summer Collection
         </p>
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
